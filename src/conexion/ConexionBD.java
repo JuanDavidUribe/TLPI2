@@ -75,9 +75,9 @@ public class ConexionBD {
                 conectbd.closeDB();
             } catch (SQLException e) {
                  System.out.println("Exception: "+e.getMessage());
-            }//fin try/catch
-        }//fin try/catch/finally
+            }
+        }
     }
 
 
-}//fin class
+}
